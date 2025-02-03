@@ -1,0 +1,44 @@
+.-inicio {
+    background-color: #a7c7f6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.-inicio .main-title {
+    color: white;
+    position: absolute;
+    top: 180px;
+    display: inline-flex;
+    align-items: center;
+    gap: 60px;
+    z-index: 1;
+}
+
+.-inicio .main-title .-kenao {
+    font-size: 3vw;
+}
+
+.-inicio .casal-ghibli {
+    position: absolute;
+    bottom: 0;
+    height: 77vh;
+    z-index: 2;
+}
+
+.-inicio .flowers-left {
+    position: absolute;
+    z-index: 0;
+    left: -280px;
+    bottom: -444px;
+    transform: rotate(10deg) scale(1.1);
+}
+
+.-inicio .flowers-right {
+    position: absolute;
+    z-index: 0;
+    right: -200px;
+    bottom: -260px;
+    transform: rotate(-21deg) scale(1.1);
+}
+

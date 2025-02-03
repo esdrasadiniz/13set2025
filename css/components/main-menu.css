@@ -1,0 +1,33 @@
+.main-menu {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.main-button {
+    color: white;
+    font-size: 1.3vw;
+    position: relative;
+    line-height: 60px;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.main-button:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: center;
+    background: white;
+    transition: transform 0.25s ease-out;
+}
+
+.main-button:hover:before {
+    transform: scaleX(1);
+    width: 100%;
+    transform-origin: center;
+}

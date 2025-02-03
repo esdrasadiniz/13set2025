@@ -1,0 +1,13 @@
+header {
+    position: absolute;
+    top: 4vw;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.main-section {
+
+}
+
