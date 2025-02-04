@@ -1,7 +1,7 @@
 .main-menu {
     display: flex;
     justify-content: center;
-    gap: 5vw;
+    gap: 3.5vw;
 }
 
 .main-button {

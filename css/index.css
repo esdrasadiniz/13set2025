@@ -1,6 +1,6 @@
 header {
     position: absolute;
-    top: 3.7vw;
+    top: 60px;
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -8,6 +8,6 @@ header {
 }
 
 .main-section {
-    
+    position: relative;
 }
 

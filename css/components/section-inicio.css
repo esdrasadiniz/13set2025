@@ -13,11 +13,12 @@
 .-inicio .main-title {
     color: white;
     position: absolute;
-    top: 170px;
+    top: 150px;
     display: inline-flex;
     align-items: center;
-    gap: 75px;
+    gap: 70px;
     z-index: 1;
+    font-size: 130px;
 }
 
 .-inicio .main-title .-kenao {
@@ -26,8 +27,8 @@
 
 .-inicio .casal-ghibli {
     position: absolute;
-    bottom: 0;
-    height: 79vh;
+    bottom: -50px;
+    height: 87vh;
     z-index: 2;
 }
 
@@ -43,7 +44,7 @@
     z-index: 0;
     left: -270px;
     bottom: -444px;
-    transform: rotate(10deg) scale(1.13);
+    transform: rotate(10deg) scale(1.17);
 }
 
 .-inicio .flowers-right {
@@ -51,7 +52,7 @@
     z-index: 0;
     right: -240px;
     bottom: -250px;
-    transform: rotate(-21deg) scale(1.1);
+    transform: rotate(-25deg) scale(1.2);
 }
 
 .main-menu {
