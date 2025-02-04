@@ -5,6 +5,7 @@ window.addEventListener("load", function () {
     const flowers = document.querySelector(".flowers");
     const casalGhibli = document.querySelector(".casal-ghibli");
     const menu = document.querySelector(".main-menu");
+    const btn = document.querySelector(".-btn")
 
     // Aguarda o tempo do loader antes de iniciar a transição
     setTimeout(function () {
@@ -17,10 +18,12 @@ window.addEventListener("load", function () {
             casalGhibli.classList.add("visible");
             flowers.classList.add("visible");
             menu.classList.add("visible");
+            
         }, 4000); // Pequeno delay para um efeito mais suave
 
         setTimeout(function () {
             flowers.classList.add("overflow-hidden");
+            btn.style.opacity = "1";
         }, 5000);
 
         // Remove o loader completamente após a transição
