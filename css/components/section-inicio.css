@@ -1,8 +1,13 @@
 .-inicio {
     background-color: #a7c7f6;
     height: 100vh;
+    width: 100%;
+    overflow: hidden;
     display: flex;
     justify-content: center;
+    align-items: center;
+    scrollbar-width: none;
+    
 }
 
 .-inicio .main-title {
@@ -26,12 +31,19 @@
     z-index: 2;
 }
 
+.-inicio .flowers {
+    height: 100vh;
+    width: 99.8vw;
+    display: flex;
+    position: absolute;
+}
+
 .-inicio .flowers-left {
     position: absolute;
     z-index: 0;
-    left: -280px;
+    left: -260px;
     bottom: -444px;
-    transform: rotate(10deg) scale(1.1);
+    transform: rotate(10deg) scale(1.15);
 }
 
 .-inicio .flowers-right {
@@ -42,3 +54,30 @@
     transform: rotate(-21deg) scale(1.1);
 }
 
+.main-menu {
+    transform: translateX(95vw);
+    transition: transform 1s ease-in-out;
+}
+
+.main-title {
+    transform: translateX(250vw);
+    transition: transform 1s ease-in-out;
+}
+
+.casal-ghibli {
+    transform: translateX(90vw);
+    transition: transform 1s ease-in-out;
+}
+
+.flowers {
+    transform: translateX(190vw);
+    transition: transform 1s ease-in-out;
+}
+
+.visible {
+    transform: translateX(0);
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}

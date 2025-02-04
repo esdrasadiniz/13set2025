@@ -1,0 +1,37 @@
+.loader {
+    font-weight: 500;
+    display: inline-grid;
+    font-size: 30px;
+    transition: display 0.9s ease;
+    transition: opacity 2s ease; /* Transição mais longa (2s) */
+    opacity: 1; /* Inicialmente visível */
+    transition: transform 1s ease-in-out;
+  }
+
+.invisible {
+    /*opacity: 0; /* Torna o elemento invisível */
+    pointer-events: none; /* Impede interação com o loader */
+    transform: translateX(-100vw);
+}
+
+
+
+.hidden {
+    display: none; /* Remove o elemento do fluxo do documento*/ 
+}
+
+.loader .main-text {
+    color: white;
+    font-size: 2.5vw;
+    line-height: 2.9vw;
+    text-align: center;
+}
+
+.loader .main-subtitle {
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    line-height: 2.5vw;
+    margin-top: 15px;
+}
+

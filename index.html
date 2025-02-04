@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,13 @@
     <link rel="stylesheet" href="css/components/section-inicio.css">
     <link rel="stylesheet" href="css/components/main-menu.css">
     <link rel="stylesheet" href="css/components/main-text.css">
-    
+    <link rel="stylesheet" href="css/components/loader.css">
+
     <link rel="stylesheet" href="assets/fonts/fonts.css">
 </head>
+
 <body>
+
     <header>
         <nav class="main-menu">
             <a href="" class="main-button">INÍCIO</a>
@@ -24,11 +28,22 @@
     </header>
 
     <section class="main-section -inicio">
+        <div class="loader fade-in-up -first">
+            <h2 class="main-text">"para que todos vejam e saibam, <br>
+                que a mão do Senhor fez isso, <br>
+                que o Santo de Israel o criou."</h2>
+            <p class="main-subtitle">Isaias 41:20</p>
+        </div>
+
         <h1 class="main-title">Viviane <span class="-kenao">&</span> Esdras</h1>
-        <img src="assets/img/casal-ghibli.png"  alt="vivi e esdras em desenho estilo ghibli" class="casal-ghibli">
-        <img src="assets/img/flowers 2.png" alt="flores do lado esquerdo" class="flowers-left">
-        <img src="assets/img/flowers 2.png" alt="flores do lado direito" class="flowers-right">
+        <img src="assets/img/casal-ghibli.png" alt="vivi e esdras em desenho estilo ghibli" class="casal-ghibli">
+        <div class="flowers">
+            <img src="assets/img/flowers 2.png" alt="flores do lado esquerdo" class="flowers-left">
+            <img src="assets/img/flowers 2.png" alt="flores do lado direito" class="flowers-right">
+        </div>
     </section>
-    
+
+    <script src="js/loading.js"></script>
 </body>
+
 </html>

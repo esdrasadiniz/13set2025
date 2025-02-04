@@ -8,10 +8,12 @@
 }
 
 .main-subtitle {
-
+    font-family: 'ahsingregular';
+    font-size: 3vw;
 }
 
 .main-text {
-
+    font-family: 'kenaoregular';
+    font-size: 1.5vw;
 }
 
