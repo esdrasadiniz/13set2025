@@ -25,6 +25,8 @@ footer, header, hgroup, menu, nav, section {
 }
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
+	background-color: #a7c7f6;
 }
 body {
 	line-height: 1;

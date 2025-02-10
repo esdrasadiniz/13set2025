@@ -1,0 +1,32 @@
+.-nossa-historia {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: #b1e9b4eb;
+    z-index: 600;
+}
+
+.-nossa-historia .main-text {
+    width: 50vw;
+    text-align: center;
+    color: white;
+}
+
+.-nossa-historia .transitionFlowers-left {
+    position: absolute;
+    z-index: 0;
+    left: -180px;
+    top: -73px;
+    z-index: 800;
+    filter: blur(3px);
+}
+
+.-nossa-historia .transitionFlowers-right {
+    position: absolute;
+    z-index: 0;
+    right: -150px;
+    top: 800px;
+    z-index: 800;
+    filter: blur(3px);
+}

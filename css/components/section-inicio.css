@@ -6,8 +6,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    scrollbar-width: none;
-    
 }
 
 .-inicio .main-title {
@@ -99,3 +97,4 @@
 .-inicio .main-button.-btn:hover {
     transform: scale(1.1);
 }
+

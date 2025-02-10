@@ -13,6 +13,11 @@
 
 .main-text {
     font-family: 'kenaoregular';
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    color: rgb(85, 85, 85);
 }
 
+.main-text b {
+    font-weight: 600;
+    font-size: 1.4vw;
+}
