@@ -11,3 +11,7 @@ header {
     position: relative;
 }
 
+.main-section.-celebracao {
+    height: 100vh;
+    background-color: aliceblue;
+}
