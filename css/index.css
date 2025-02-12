@@ -8,10 +8,10 @@ header {
 }
 
 .main-section {
-    position: relative;
 }
 
 .main-section.-celebracao {
     height: 100vh;
     background-color: aliceblue;
 }
+
