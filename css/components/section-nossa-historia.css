@@ -47,21 +47,27 @@
 }
 
 .-nossa-historia .floating-photo.-first {
-    background-color: #baf1e8;
+    z-index: 2;
     border-radius: 5px;
     width: 17vw;
-    aspect-ratio: 11/11;
-    top: 180px;
+    aspect-ratio: 7/11;
+    top: 50px;
     left: 150px;
     transition: transform 1s ease-out;
+    background-image: url(../../assets/img/vivi-ghibli.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .-nossa-historia .floating-photo.-second {
-    background-color: #bcffaf;
+    background-image: url(../../assets/img/esdras-ghibli.png);
+    background-size: cover;
+    background-position: center;
     border-radius: 5px;
-    width: 18vw;
+    width: 24vw;
     aspect-ratio: 9/11;
-    bottom: 100px;
-    right: 180px;
+    bottom: 65px;
+    right: 150px;
     transition: transform 1s ease-out;
 }

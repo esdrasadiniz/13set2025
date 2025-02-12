@@ -11,9 +11,10 @@
 .carousel{
     width: 90vw;
     height: 90vh;
-    margin-top: -50px;
-    overflow: hidden;
+    
+    
     position: relative;
+    border-radius: 10px;
 }
 
 .carousel .list .item{
@@ -84,12 +85,12 @@
 .content .title{
     font-size: 100px;
     text-transform: uppercase;
-    color: #14ff72cb;
+    color: #b1e9b4;
     font-weight: bold;
     line-height: 1;
 
     opacity: 0;
-    animation: animate 1s ease-in-out 0.3s 1 forwards;
+    animation: animate 0.7s ease-in-out 0.3s 1 forwards;
 }
 
 .content .name{
@@ -97,10 +98,9 @@
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1;
-    text-shadow: 3px 4px 4px rgba(255, 255, 255, 0.8);
 
     opacity: 0;
-    animation: animate 1s ease-in-out 0.6s 1 forwards;
+    animation: animate 0.7s ease-in-out 0.4s 1 forwards;
 }
 
 .content .des{
@@ -110,14 +110,14 @@
     margin-left: 5px;
 
     opacity: 0;
-    animation: animate 1s ease-in-out 0.9s 1 forwards;
+    animation: animate 0.7s ease-in-out 0.5s 1 forwards;
 }
 
 .content .btn{
     margin-left: 5px;
 
     opacity: 0;
-    animation: animate 1s ease-in-out 1.2s 1 forwards;
+    animation: animate 0.7s ease-in-out 0.6s 1 forwards;
 }
 
 .content .btn button{
@@ -134,15 +134,15 @@
 
 .content .btn button:nth-child(2){
     background: transparent;
-    color: #14ff72cb;
+    color: #b1e9b4;
     border: 2px solid #fff;
     transition: 0.3s;
 }
 
 .content .btn button:nth-child(2):hover{
-    background-color: #14ff72cb;
+    background-color: #b1e9b4;
     color: #fff;
-    border-color: #14ff72cb;
+    border-color: #b1e9b4;
 }
 
 
@@ -173,7 +173,7 @@
 .arrows{
     position: absolute;
     top: 80%;
-    right: 52%;
+    left: 170px;
     z-index: 100;
     width: 300px;
     max-width: 30%;
@@ -186,7 +186,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #14ff72cb;
+    background-color: #b1e9b4;
     color: #fff;
     border: none;
     outline: none;
@@ -209,7 +209,7 @@
     z-index: 1000;
     width: 0%;
     height: 4px;
-    background-color: #14ff72cb;
+    background-color: #b1e9b4;
     left: 0;
     top: 0;
     animation: runningTime 7s linear 1 forwards;
