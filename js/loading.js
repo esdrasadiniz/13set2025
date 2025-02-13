@@ -5,7 +5,15 @@ window.addEventListener("load", function () {
     const flowers = document.querySelector(".flowers");
     const casalGhibli = document.querySelector(".casal-ghibli");
     const menu = document.querySelector(".main-menu");
-    const btn = document.querySelector(".-btn")
+    const btn = document.querySelector(".-btn");
+    const siteContent = document.querySelector(".site-content");
+    const sectionInicio = document.querySelector(".-inicio");
+
+    console.log(sectionInicio);
+    setTimeout(function () {
+        sectionInicio.classList.remove("position-fixed");
+    }, 5000)
+
 
     // Aguarda o tempo do loader antes de iniciar a transição
     setTimeout(function () {
@@ -24,6 +32,7 @@ window.addEventListener("load", function () {
         setTimeout(function () {
             flowers.classList.add("overflow-hidden");
             btn.style.opacity = "1";
+            siteContent.classList.add("display-block")
         }, 5000);
 
         // Remove o loader completamente após a transição
@@ -31,3 +40,5 @@ window.addEventListener("load", function () {
             loader.classList.add("hidden");
         }, 4000);
     }, 4000); // Tempo de exibição do loader antes da transição
+
+    

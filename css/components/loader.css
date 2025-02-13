@@ -14,7 +14,14 @@
     transform: translateX(-100vw);
 }
 
+.position-fixed {
+    position: fixed;
+    z-index: 700;
+}
 
+.display-block {
+    display: block;
+}
 
 .hidden {
     display: none; /* Remove o elemento do fluxo do documento*/ 
