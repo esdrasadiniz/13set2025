@@ -53,7 +53,7 @@
     aspect-ratio: 7/11;
     top: 50px;
     left: 150px;
-    transition: transform 1s ease-out;
+    transition: transform 0.4s ease-out;
     background-image: url(../../assets/img/vivi-ghibli.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -69,5 +69,5 @@
     aspect-ratio: 9/11;
     bottom: 65px;
     right: 150px;
-    transition: transform 1s ease-out;
+    transition: transform 0.4s ease-out;
 }
