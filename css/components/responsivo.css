@@ -57,7 +57,7 @@
     /*------------section -nossa-historia--------------*/
 
     .transitionFlowers-left {
-        bottom: -550px;
+        top: 650px;
         left: -270px;
         width: 100vw;
 
@@ -65,7 +65,7 @@
     }
 
     .transitionFlowers-right {
-        bottom: -920px;
+        top: 1020px;
         right: -270px;
         width: 100vw;
         
