@@ -2,7 +2,7 @@
     width: 100vw;
     height: 45px;
     position: fixed;
-    bottom: 15px;
+    top: 90vh;
     justify-content: center;
     align-items: center;
     z-index: 1100;
