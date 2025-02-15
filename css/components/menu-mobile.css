@@ -19,7 +19,7 @@
     border-radius: 10px;
   }
   
-  .button {
+  .mobile-button {
     outline: 0 !important;
     border: 0 !important;
     width: 40px;
@@ -34,7 +34,7 @@
     cursor: pointer;
   }
   
-  .button:hover {
+  .mobile-button:hover {
     transform: translateY(-3px);
   }
   
