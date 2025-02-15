@@ -1,0 +1,62 @@
+@media screen and (max-width: 1500px) {
+    header .main-menu {
+        display: none;
+    }
+
+    .loader .main-text {
+        color: white;
+        font-size: 4vw;
+        line-height: 4vw;
+        text-align: center;
+    }
+    
+    .loader .main-subtitle {
+        color: white;
+        text-align: center;
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+        margin-top: 10px;
+    }
+
+    .-inicio .main-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        font-size: 20vw;
+        top: 100px;
+    }
+
+    .-inicio .flowers-left {
+        position: absolute;
+        z-index: 0;
+        left: -430px;
+        bottom: -480px;
+        transform: rotate(30deg) scale(0.7);
+        filter: blur(1.2px);
+    }
+    
+    .-inicio .flowers-right {
+        position: absolute;
+        z-index: 0;
+        right: -435px;
+        bottom: -470px;
+        transform: rotate(-25deg) scale(0.7) scaleX(-1);
+        filter: blur(1.2px);
+    }
+
+    .-inicio .main-button.-btn {
+        display: none;
+    }
+    
+    .-inicio .casal-ghibli {
+        width: 110vw;
+        bottom: 0;
+    }
+
+    /*------------section -nossa-historia--------------*/
+
+    .-nossa-historia .transitionFlowers-left {
+        
+    }
+}
