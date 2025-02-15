@@ -24,20 +24,20 @@
     color: rgb(98, 121, 96);
 }
 
-.-nossa-historia .transitionFlowers-left {
+.transitionFlowers-left {
     position: absolute;
     z-index: 0;
     left: -180px;
-    top: -73px;
+    bottom: -1150px;
     z-index: 800;
     filter: blur(3px);
 }
 
-.-nossa-historia .transitionFlowers-right {
+.transitionFlowers-right {
     position: absolute;
     z-index: 0;
     right: -80px;
-    top: 800px;
+    bottom: -1920px;
     z-index: 800;
     filter: blur(4px);
 }
