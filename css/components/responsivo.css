@@ -33,7 +33,7 @@
         left: -430px;
         bottom: -480px;
         transform: rotate(30deg) scale(0.7);
-        filter: blur(1.2px);
+        filter: blur(3px);
     }
     
     .-inicio .flowers-right {
@@ -42,7 +42,7 @@
         right: -435px;
         bottom: -470px;
         transform: rotate(-25deg) scale(0.7) scaleX(-1);
-        filter: blur(1.2px);
+        filter: blur(3px);
     }
 
     .-inicio .main-button.-btn {
