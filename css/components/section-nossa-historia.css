@@ -10,7 +10,7 @@
 
 .-nossa-historia .main-text {
     width: 50vw;
-    height: 22vw;
+    height: fit-content;
     text-align: center;
     color: rgb(77, 77, 77);
     padding: 50px;

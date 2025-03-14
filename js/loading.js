@@ -5,6 +5,7 @@ window.addEventListener("load", function () {
     const flowers = document.querySelector(".flowers");
     const casalGhibli = document.querySelector(".casal-ghibli");
     const menu = document.querySelector(".main-menu");
+    const menuMobile = document.querySelector(".menu-mobile");
     const btn = document.querySelector(".-btn");
     const siteContent = document.querySelector(".site-content");
     const sectionInicio = document.querySelector(".-inicio");
@@ -26,6 +27,7 @@ window.addEventListener("load", function () {
             casalGhibli.classList.add("visible");
             flowers.classList.add("visible");
             menu.classList.add("visible");
+            menuMobile.classList.remove("hidden");
             
         }, 4000); // Pequeno delay para um efeito mais suave
 

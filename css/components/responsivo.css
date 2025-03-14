@@ -76,4 +76,38 @@
         width: 100vw;
         
     }
+
+    .-nossa-historia {
+        padding-top: 0;
+    }
+
+    .-nossa-historia .main-text {
+        font-size: 13px;
+        line-height: 15px;
+        width: 70vw;
+        padding: 15px;
+        text-align:center;
+    }
+
+    .-nossa-historia .main-text b {
+        font-size: 14px;
+    }
+
+    .-nossa-historia .main-text i {
+        font-size: 10px;
+    }
+
+    .-nossa-historia .floating-photo.-first {
+        left: 8vw;
+        bottom: 5px;
+        top: auto;
+        width: 27vw;
+    }
+
+    .-nossa-historia .floating-photo.-second {
+        right: 11vw;
+        bottom: 10px;
+        width: 30vw; 
+        z-index: 2;
+    }
 }
