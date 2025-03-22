@@ -3,9 +3,10 @@
     display: flex;
     justify-content: center;
     padding-top: 100px;
-    background-color: #b1e9b4;
+    background-color: #fdfdf1;
     z-index: 600;
     position: relative;
+    background: linear-gradient(to bottom, #fdfdf100 0%, #fdfdf1ea 27%, #fdfdf1 30%);
 }
 
 .-nossa-historia .main-text {
@@ -14,7 +15,6 @@
     text-align: center;
     color: rgb(77, 77, 77);
     padding: 50px;
-    background-color: #e9fae3;
     border-radius: 10px;
     line-height: 1.5vw;
     z-index: 1;
