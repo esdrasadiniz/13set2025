@@ -1,5 +1,5 @@
 .-nossa-historia {
-    height: 100vh;
+    height: 115vh;
     display: flex;
     justify-content: center;
     padding-top: 100px;
@@ -48,26 +48,39 @@
 
 .-nossa-historia .floating-photo.-first {
     z-index: 2;
-    border-radius: 5px;
-    width: 17vw;
-    aspect-ratio: 7/11;
-    top: 50px;
-    left: 150px;
+    border-radius: 20px;
+    width: 320px;
+    aspect-ratio: 7/10;
+    top: 120px;
+    left: 110px;
     transition: transform 0.4s ease-out;
-    background-image: url(../../assets/img/vivi-ghibli.png);
-    background-size: contain;
+    background-image: url(../../assets/img/35-DSC_8426.jpg);
+    background-size: 143%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -39px -9px;
 }
 
 .-nossa-historia .floating-photo.-second {
-    background-image: url(../../assets/img/esdras-ghibli.png);
-    background-size: cover;
+    background-image: url(../../assets/img/41-DSC_8626.jpg);
+    background-size: 177%;
     background-position: center;
-    border-radius: 5px;
-    width: 24vw;
-    aspect-ratio: 9/11;
-    bottom: 65px;
-    right: 150px;
+    border-radius: 20px;
+    width: 370px;
+    aspect-ratio: 9 / 11;
+    bottom: 42px;
+    right: 107px;
+    transition: transform 0.4s ease-out;
+    filter: brightness(140%);
+}
+.-nossa-historia .floating-photo.-third {
+    background-image: url(../../assets/img/45-DSC_8681.jpg);
+    background-size: 190%;
+    background-position: -416px -625px;
+    filter: brightness(1.25);
+    border-radius: 20px;
+    width: 670px;
+    aspect-ratio: 17 / 10;
+    bottom: 10px;
+    left: 468px;
     transition: transform 0.4s ease-out;
 }
