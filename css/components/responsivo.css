@@ -82,19 +82,20 @@
     }
 
     .-nossa-historia .main-text {
-        font-size: 13px;
+        font-size: 18px;
         line-height: 15px;
-        width: 70vw;
+        width: 75vw;
         padding: 15px;
         text-align:center;
     }
 
     .-nossa-historia .main-text b {
-        font-size: 14px;
+        font-size: 28px;
+        line-height: 30px;
     }
 
     .-nossa-historia .main-text i {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .-nossa-historia .floating-photo.-first {
