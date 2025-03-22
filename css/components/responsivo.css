@@ -1,5 +1,5 @@
 @media screen and (min-width: 1500px) {
-    .menu-mobile {
+    .menu-mobile, .floating-photo.-secondMobile {
         display: none;
     }
 }
@@ -84,14 +84,14 @@
     .-nossa-historia .main-text {
         font-size: 18px;
         line-height: 15px;
-        width: 75vw;
+        width: 95vw;
         padding: 15px;
         text-align:center;
     }
 
     .-nossa-historia .main-text b {
-        font-size: 28px;
-        line-height: 30px;
+        font-size: 34px;
+        line-height: 65px;
     }
 
     .-nossa-historia .main-text i {
@@ -99,16 +99,27 @@
     }
 
     .-nossa-historia .floating-photo.-first {
-        left: 8vw;
-        bottom: 5px;
+        left: 5vw;
+        bottom: 104px;
         top: auto;
-        width: 27vw;
+        width: 44vw;
     }
 
     .-nossa-historia .floating-photo.-second {
-        right: 11vw;
+        display: none;
+    }
+    .-nossa-historia .floating-photo.-secondMobile {
+        right: 5vw;
         bottom: 10px;
-        width: 30vw; 
+        width: 43vw; 
         z-index: 2;
+    }
+
+    .-nossa-historia .floating-photo.-third {
+        left: 15vw;
+        bottom: -156px;
+        width: 80vw; 
+        z-index: 2;
+        background-position: -190px -271px;
     }
 }

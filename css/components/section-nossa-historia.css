@@ -74,6 +74,20 @@
     transition: transform 0.4s ease-out;
     filter: brightness(140%);
 }
+
+.-nossa-historia .floating-photo.-secondMobile {
+    background-image: url(../../assets/img/41-DSC_8626.jpg);
+    background-size: 177%;
+    background-position: center;
+    border-radius: 20px;
+    width: 370px;
+    aspect-ratio: 9 / 11;
+    bottom: 42px;
+    right: 107px;
+    transition: transform 0.4s ease-out;
+    filter: brightness(140%);
+}
+
 .-nossa-historia .floating-photo.-third {
     background-image: url(../../assets/img/45-DSC_8681.jpg);
     background-size: 190%;
