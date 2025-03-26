@@ -51,7 +51,7 @@
         margin-left: 6vw;
         line-height: 14vw;
         border-bottom: 1px solid rgb(255, 255, 250);
-        height: 14vw;
+        height: 19vw;
         width: 75vw;
     }
 
@@ -82,13 +82,20 @@
         margin-top: 10px;
     }
 
+    .bg-image {
+        background-image: url(../../assets/img/bg-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: 170%;
+        background-position: -147px -49px;
+    }
+
     .-inicio .main-title {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 0;
         font-size: 20vw;
-        top: 100px;
+        top: 120px;
     }
 
     .-inicio .flowers-left {
