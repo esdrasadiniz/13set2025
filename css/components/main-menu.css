@@ -32,3 +32,22 @@
     width: 100%;
     transform-origin: center;
 }
+
+.open-menu {
+    background-image:url(../../assets/img/menu.png);
+    background-size: cover;
+    width: 7vw;
+    height: 7vw;
+    margin-right: 5vw;
+    background-repeat: no-repeat;
+}
+
+.close-menu {
+    color: white;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 5vw;
+}
+
+.close-menu::before {
+    display: none;
+}

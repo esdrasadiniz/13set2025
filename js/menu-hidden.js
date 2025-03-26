@@ -1,5 +1,5 @@
 let lastScrollY = window.scrollY;
-const menu = document.querySelector('.menu-mobile');
+const menu = document.querySelector('.main-menu');
 
 window.addEventListener('scroll', () => {
   const currentScrollY = window.scrollY;

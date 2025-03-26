@@ -1,13 +1,71 @@
 @media screen and (min-width: 1500px) {
-    .menu-mobile, .floating-photo.-secondMobile {
+    header .open-menu {
+        display: none;
+    }
+
+    header .main-menu .close-menu {
         display: none;
     }
 }
 
 @media screen and (max-width: 1500px) {
-    header .main-menu {
-        display: none;
+    header {
+        justify-content: flex-end;
+        padding-right: 2vw;
     }
+
+    .main-menu {
+        padding: 2.5vw 1vw;
+    }
+
+    .main-menu {
+        position: fixed;
+        box-sizing: border-box;
+        background-color: #e7f1f5;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        top: 0;
+        right: -90vw;
+        margin-right: 0;
+        padding-left: 1vw;
+        padding-top: 12vw;
+        gap: 0;
+        transition: transform 0.2s linear;
+        border-radius: 30px 0 0 0;
+        align-items: flex-start;
+    }
+
+    .main-menu .close-menu {
+        position: absolute;
+        top: 12vw;
+        right: 8vw;
+        color: rgb(100, 100, 100);
+    }
+
+    .main-menu .main-button {
+        display: flex;
+        line-height: 14vw;
+        font-size: 4vw;
+        margin-left: 6vw;
+        line-height: 14vw;
+        border-bottom: 1px solid rgb(255, 255, 250);
+        height: 14vw;
+        width: 75vw;
+    }
+
+    .main-menu .main-button {
+        color: rgb(100, 100, 100);
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        margin-right: 30px;
+        line-height: 60px;
+        display: inline-flex;
+        align-items: center;
+    }
+
 
     .loader .main-text {
         color: white;
@@ -117,7 +175,7 @@
 
     .-nossa-historia .floating-photo.-third {
         left: 15vw;
-        bottom: -156px;
+        bottom: -170px;
         width: 80vw; 
         z-index: 2;
         background-position: -190px -271px;
