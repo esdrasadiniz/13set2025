@@ -6,6 +6,10 @@
     header .main-menu .close-menu {
         display: none;
     }
+
+    .-nossa-historia .floating-photo.-secondMobile {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1500px) {
