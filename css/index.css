@@ -12,10 +12,6 @@ header {
     height: 100vh;
 }
 
-.main-section.-celebracao {
-    height: 100vh;
-    background-color: aliceblue;
-}
 
 .site-content {
     display: none;   
