@@ -190,9 +190,9 @@
         display: none;
     }
     .-cerimonia .floating-photo.-secondMobile {
-        right: 5vw;
+        right: 1vw;
         bottom: 10px;
-        width: 43vw; 
+        width: 53vw; 
         z-index: 2;
     }
 
@@ -200,7 +200,7 @@
         left: 15vw;
         bottom: -170px;
         width: 80vw; 
-        z-index: 2;
+        z-index: 1;
         background-position: -190px -271px;
     }
 }
