@@ -1,4 +1,4 @@
-.-nossa-historia {
+.-cerimonia {
     height: 115vh;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     background: linear-gradient(to bottom, #fdfdf100 0%, #fdfdf1ea 27%, #fdfdf1 30%);
 }
 
-.-nossa-historia .main-text {
+.-cerimonia .main-text {
     width: 50vw;
     height: fit-content;
     text-align: center;
@@ -25,14 +25,14 @@
     align-items: center;
 }
 
-.-nossa-historia .main-text .-date {
+.-cerimonia .main-text .-date {
     color: rgb(98, 121, 96);
     font-size: 90px;
     line-height: 120px;
 
 }
 
-.-nossa-historia .igrejaimg {
+.-cerimonia .igrejaimg {
     width: 80vw;
     height: 80vw;
 }
@@ -55,11 +55,11 @@
     filter: blur(4px);
 }
 
-.-nossa-historia .floating-photo {
+.-cerimonia .floating-photo {
     position: absolute;
 }
 
-.-nossa-historia .floating-photo.-first {
+.-cerimonia .floating-photo.-first {
     z-index: 2;
     border-radius: 20px;
     width: 320px;
@@ -73,7 +73,7 @@
     background-position: -39px -9px;
 }
 
-.-nossa-historia .floating-photo.-second {
+.-cerimonia .floating-photo.-second {
     background-image: url(../../assets/img/41-DSC_8626.jpg);
     background-size: 177%;
     background-position: center;
@@ -86,7 +86,7 @@
     filter: brightness(140%);
 }
 
-.-nossa-historia .floating-photo.-secondMobile {
+.-cerimonia .floating-photo.-secondMobile {
     background-image: url(../../assets/img/41-DSC_8626.jpg);
     background-size: 177%;
     background-position: center;
@@ -99,7 +99,7 @@
     filter: brightness(140%);
 }
 
-.-nossa-historia .floating-photo.-third {
+.-cerimonia .floating-photo.-third {
     background-image: url(../../assets/img/45-DSC_8681.jpg);
     background-size: 190%;
     background-position: -416px -625px;
@@ -112,7 +112,7 @@
     transition: transform 0.4s ease-out;
 }
 
-.-nossa-historia .main-text .main-button {
+.-cerimonia .main-text .main-button {
         color: white;
         background-color: #93bcf7;
         border-radius: 50px;
