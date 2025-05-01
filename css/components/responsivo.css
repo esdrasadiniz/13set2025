@@ -92,6 +92,7 @@
         background-repeat: no-repeat;
         background-size: 170%;
         background-position: -147px -49px;
+        height: 120vh;
     }
 
     .-inicio {
@@ -132,6 +133,7 @@
         width: 110vw;
         bottom: 0;
     }
+
 
     /*------------section -nossa-historia--------------*/
 
