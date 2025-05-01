@@ -153,15 +153,15 @@
     }
 
     .-nossa-historia {
-        padding-top: 0;
-        height: 175vh;
+        padding-top: 150px;
+        height: 180vh;
     }
 
     .-nossa-historia .main-text {
         font-size: 18px;
         line-height: 20px;
         width: 95vw;
-        padding: 15px;
+        padding: 0;
         text-align:center;
     }
 
