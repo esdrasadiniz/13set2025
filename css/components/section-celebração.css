@@ -52,12 +52,3 @@
     margin-top: 50px;
     padding-left: 20px;
 }
-.-celebracao .momentos img {
-    width: 97vw;
-    border-radius: 5px;
-    border: 10px solid white;
-    border-bottom: 100px solid white;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.329);
-    transform: rotate(-5deg) translateX(-10px);
-    z-index: 2;
-}

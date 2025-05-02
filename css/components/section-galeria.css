@@ -8,6 +8,16 @@
     position: relative;
 }
 
+.-galeria img {
+    width: 97vw;
+    border-radius: 5px;
+    border: 10px solid white;
+    border-bottom: 100px solid white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.329);
+    transform: rotate(-5deg) translateX(-10px) translateY(-215px);
+    z-index: 2;
+}
+
 .-galeria .main-subtitle {
     color: #000000;
     margin-bottom: 60px;
@@ -16,19 +26,19 @@
     z-index: 3;
     left: 37px;
     font-family: 'Kenaoregular';
-    font-size: 58px;
+    font-size: 16vw;
     rotate: -1deg;
 }
 
 .-galeria .main-subtitle .-galeria-subtitle {
-    font-size: 150px;
+    font-size: 38vw;
     margin-left: -25px;
-    line-height: 62px;
+    line-height: 19vw;
     font-family: 'Meow Script';
     color: #5d4314;
 }
 
 .-galeria .instagram-galery {
-    margin-top: 330px;
+    transform: translateY(-17vw);
     width: 99vw;
 }
