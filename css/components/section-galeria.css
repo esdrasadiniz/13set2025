@@ -12,7 +12,7 @@
     color: #000000;
     margin-bottom: 60px;
     position: absolute;
-    top: 193px;
+    top: 52vw;
     z-index: 3;
     left: 37px;
     font-family: 'Kenaoregular';
@@ -21,7 +21,7 @@
 }
 
 .-galeria .main-subtitle .-galeria-subtitle {
-    font-size: 157px;
+    font-size: 150px;
     margin-left: -25px;
     line-height: 62px;
     font-family: 'Meow Script';
