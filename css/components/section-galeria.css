@@ -5,7 +5,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     position: relative;
 }
 
@@ -27,4 +26,9 @@
     line-height: 62px;
     font-family: 'Meow Script';
     color: #5d4314;
+}
+
+.-galeria .instagram-galery {
+    margin-top: 330px;
+    width: 99vw;
 }
