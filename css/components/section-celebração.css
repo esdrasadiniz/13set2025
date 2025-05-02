@@ -3,6 +3,7 @@
     align-items: center;
     position: relative;
     height: 150vh;
+    background-color: #fdfdf1;
 }
 
 .-celebracao .momentos::before{
