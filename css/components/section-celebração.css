@@ -15,7 +15,6 @@
     position: absolute;
     content: url(../../assets/img/linha-divisoria.webp);
     scale: 0.7;
-    z-index: -1;
     opacity: 0.5;
 }
 .-celebracao .momentos{
@@ -43,12 +42,18 @@
 }
 .-celebracao .momentos .chegada {
     width: 70vw;
+    z-index: 1;
+
 }
 .-celebracao .momentos .culto {
     padding-left: 80px;
     margin-top: 15px;
+    z-index: 1;
+
 }
 .-celebracao .momentos .recepcao {
     margin-top: 50px;
     padding-left: 20px;
+    z-index: 1;
+
 }
