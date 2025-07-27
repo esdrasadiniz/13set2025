@@ -1,5 +1,5 @@
 .-cerimonia {
-    height: 115vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -55,13 +55,20 @@
     filter: blur(4px);
 }
 
+.-cerimonia .floating-photos {
+    height: 90vw;
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+
 .-cerimonia .floating-photo {
     position: absolute;
 }
 
 .-cerimonia .floating-photo.-first {
     z-index: 2;
-    border-radius: 20px;
+    border-radius: 9px;
     width: 320px;
     aspect-ratio: 7/10;
     top: 120px;
@@ -77,7 +84,7 @@
     background-image: url(../../assets/img/41-DSC_8626.jpg);
     background-size: 177%;
     background-position: center;
-    border-radius: 20px;
+    border-radius: 9px;
     width: 370px;
     aspect-ratio: 9 / 11;
     bottom: 42px;
@@ -90,7 +97,7 @@
     background-image: url(../../assets/img/41-DSC_8626.jpg);
     background-size: 177%;
     background-position: center;
-    border-radius: 20px;
+    border-radius: 9px;
     width: 370px;
     aspect-ratio: 9 / 11;
     bottom: 42px;
@@ -104,7 +111,7 @@
     background-size: 190%;
     background-position: -416px -625px;
     filter: brightness(1.25);
-    border-radius: 20px;
+    border-radius: 9px;
     width: 670px;
     aspect-ratio: 17 / 10;
     bottom: -40px;
