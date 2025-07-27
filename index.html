@@ -110,9 +110,23 @@
                     </div>
                     <button class="btnOK" onclick="closeModal()" type="submit">Confirmado, estarei lá!</button>
                 </form>
+                <div id="feedback" class="feedback-message hidden">
+                    <p id="feedback-text"></p>
+                    <button onclick="closeFeedback()">Fechar</button>
+                </div>
                 <script>
                     // Inicializa o EmailJS com a Public Key
                     emailjs.init("kXD1_fUsp0saMMSPh"); // Substitua pela sua Public Key do EmailJS
+
+                    function showFeedback(message) {
+                        const box = document.getElementById("feedback");
+                        document.getElementById("feedback-text").textContent = message;
+                        box.classList.remove("hidden");
+                    }
+
+                    function closeFeedback() {
+                        document.getElementById("feedback").classList.add("hidden");
+                    }
 
                     // Adiciona evento ao formulário
                     document.getElementById("main-form").addEventListener("submit", function (event) {
@@ -121,9 +135,9 @@
                         // Envia o e-mail usando EmailJS
                         emailjs.sendForm("vivieesdras", "confirmationforms", this)
                             .then(function () {
-                                alert("Mensagem enviada com sucesso!");
+                                showFeedback("Presença confirmada com sucesso!");
                             }, function (error) {
-                                alert("Erro ao enviar a mensagem: " + error.text);
+                                showFeedback("Erro ao enviar a mensagem: " + error.text);
                             });
                     });
                 </script>
