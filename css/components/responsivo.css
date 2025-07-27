@@ -125,9 +125,6 @@
         filter: blur(3px);
     }
 
-    .-inicio .main-button.-btn {
-        display: none;
-    }
     
     .-inicio .casal-ghibli {
         width: 110vw;

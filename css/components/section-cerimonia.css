@@ -32,9 +32,101 @@
 
 }
 
+.main-button.-btn {
+background-color: transparent;
+border: 2px solid rgb(77, 77, 77);
+border-radius: 8px;
+box-sizing: border-box;
+color: rgb(77, 77, 77);
+cursor: pointer;
+display: inline-block;
+float: right;
+font-weight: 700;
+letter-spacing: 0.05em;
+margin: 0;
+outline: none;
+overflow: visible;
+padding: 0.25em 2em;
+position: relative;
+text-align: center;
+text-decoration: none;
+text-transform: none;
+transition: all 0.3s ease-in-out;
+user-select: none;
+font-size: 16px;
+}
+
+
+.main-button.-btn .fancytext {
+font-size: 1.125em;
+line-height: 1.33333em;
+display: block;
+text-align: center;
+transition: all 0.3s ease-in-out;
+text-decoration: none;
+color: black;
+}
+
+.main-button.-btn .top-key {
+height: 2px;
+width: 1.5625rem;
+top: -2px;
+left: 0.625rem;
+position: absolute;
+background: #fdfdf1;
+transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.main-button.-btn .bottom-key-1 {
+height: 2px;
+width: 1.5625rem;
+right: 1.875rem;
+bottom: -2px;
+position: absolute;
+background: #fdfdf1;
+transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.main-button.-btn .bottom-key-2 {
+height: 2px;
+width: 0.625rem;
+right: 0.625rem;
+bottom: -2px;
+position: absolute;
+background: #fdfdf1;
+transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.main-button.-btn:hover {
+color: white;
+background: #7ce785;
+border-color: #fdfdf1;
+}
+
+.main-button.-btn:hover::before {
+width: 0.9375rem;
+background: white;
+}
+
+.main-button.-btn:hover .text {
+color: rgb(255, 255, 255);
+}
+
+.main-button.-btn:hover .top-key {
+left: -2px;
+width: 0px;
+}
+
+.main-button.-btn:hover .bottom-key-1,
+.main-button.-btn:hover .bottom-key-2 {
+right: 0;
+width: 0;
+}
+
 .-cerimonia .igrejaimg {
     width: 80vw;
     height: 80vw;
+    margin-top: 30px;
 }
 
 .transitionFlowers-left {
@@ -119,7 +211,7 @@
     transition: transform 0.4s ease-out;
 }
 
-.-cerimonia .main-text .main-button {
+.-cerimonia .main-text .main-button.-adress {
         color: white;
         background-color: #93bcf7;
         border-radius: 50px;
