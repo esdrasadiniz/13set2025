@@ -88,7 +88,7 @@
 }
 
 .cut {
-  background-color: #1c2cd600;
+  background-color: #2a38d100;
   border-radius: 10px;
   height: 20px;
   left: 20px;
@@ -128,8 +128,24 @@
   color: #808097;
 }
 
+.input:focus {
+    background-color: #f7f7f7;
+    color: #65657b;
+}
+
 .input:focus ~ .iLabel {
-  color: #dc2f55;
+  color: #65657b;
+}
+
+.input:not(:placeholder-shown) {
+    background-color: #f7f7f7;
+    color: #65657b;
+}
+
+.input:not(:placeholder-shown) ~ .iLabel {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+  color: #65657b;
+  
 }
 
 .confirmation .btnOK {
