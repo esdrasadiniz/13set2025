@@ -95,7 +95,7 @@
                     <div class="input-container ic1">
                         <input placeholder=" " type="text" class="input" name="nome" id="name" required>
                         <div class="cut"></div>
-                        <label class="iLabel" for="name">Seu nome completo</label>
+                        <label class="iLabel" for="name">Seu nome completo*</label>
                     </div>
 
                     <div class="input-container ic2">
@@ -106,9 +106,9 @@
                     <div class="input-container ic2">
                         <input placeholder=" " type="text" class="input" name="whatsapp" id="whatsapp" required>
                         <div class="cut cut-short"></div>
-                        <label class="iLabel" for="whatsapp">WhatsApp</label>
+                        <label class="iLabel" for="whatsapp">WhatsApp*</label>
                     </div>
-                    <button class="btnOK" onclick="closeModal()" type="submit">Confirmado, estarei lá!</button>
+                    <button class="btnOK" type="submit">Confirmado, estarei lá!</button>
                 </form>
                 <div id="feedback" class="feedback-message hidden">
                     <p id="feedback-text"></p>
@@ -126,6 +126,7 @@
 
                     function closeFeedback() {
                         document.getElementById("feedback").classList.add("hidden");
+                        document.getElementById("main-form").classList.remove("active");
                     }
 
                     // Adiciona evento ao formulário
@@ -137,7 +138,7 @@
                             .then(function () {
                                 showFeedback("Presença confirmada com sucesso!");
                             }, function (error) {
-                                showFeedback("Erro ao enviar a mensagem: " + error.text);
+                                alert("Erro ao enviar a mensagem: " + error.text);
                             });
                     });
                 </script>
