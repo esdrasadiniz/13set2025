@@ -26,6 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
     <script src="js/scroll-behavior.js"></script>
     <script src="js/scroll-smooth.js"></script>
@@ -86,29 +87,46 @@
                     <span class="bottom-key-2"></span>
                 </a>
 
-                <div class="confirmation">
+                <div id="main-form" class="confirmation">
                     <a class="btnClose" onclick="closeModal()">X</a>
                     <div class="title">Oba! Você vai!</div>
                     <div class="subtitle">Pra confirmar, fala pra gente:</div>
 
                     <div class="input-container ic1">
-                        <input placeholder="" type="text" class="input" id="firstname">
+                        <input placeholder="" type="text" class="input" id="name">
                         <div class="cut"></div>
-                        <label class="iLabel" for="firstname">Seu nome completo</label>
+                        <label class="iLabel" for="nome">Seu nome completo</label>
                     </div>
 
                     <div class="input-container ic2">
-                        <input placeholder="" type="text" class="input" id="lastname">
+                        <input placeholder="" type="text" class="input" id="family">
                         <div class="cut"></div>
-                        <label class="iLabel" for="lastname">Quem da sua família vai com você?</label>
+                        <label class="iLabel" for="familia">Quem da sua família vai com você?</label>
                     </div>
                     <div class="input-container ic2">
-                        <input placeholder="" type="text" class="input" id="email">
+                        <input placeholder="" type="text" class="input" id="whatsapp">
                         <div class="cut cut-short"></div>
-                        <label class="iLabel" for="email">Email</label>
+                        <label class="iLabel" for="whatsapp">WhatsApp</label>
                     </div>
-                    <button class="btnOK" onclick="closeModal()" type="text">Confirmado, estarei lá!</button>
+                    <button class="btnOK" onclick="closeModal()" type="submit">Confirmado, estarei lá!</button>
                 </div>
+                <script>
+                    // Inicializa o EmailJS com a Public Key
+                    emailjs.init("kXD1_fUsp0saMMSPh"); // Substitua pela sua Public Key do EmailJS
+
+                    // Adiciona evento ao formulário
+                    document.getElementById("main-form").addEventListener("submit", function (event) {
+                        event.preventDefault(); // Previne o recarregamento da página
+
+                        // Envia o e-mail usando EmailJS
+                        emailjs.sendForm("vivieesdras", "confirmationforms", this)
+                            .then(function () {
+                                alert("Mensagem enviada com sucesso!");
+                            }, function (error) {
+                                alert("Erro ao enviar a mensagem: " + error.text);
+                            });
+                    });
+                </script>
 
 
                 <img class="igrejaimg" src="assets/img/igj.png" alt="imagem da igreja">
