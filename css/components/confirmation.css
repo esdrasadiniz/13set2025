@@ -1,0 +1,150 @@
+.confirmation {
+  background-color: #e7f1f5;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 480px;
+  padding: 20px;
+  width: 85vw;
+  position: fixed;
+  z-index: 999;
+  top: 100px;
+  display: none;
+}
+
+.active {
+    display: block;
+}
+
+/*
+.active .confirmation {
+    animation: modal 4s;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+*/
+
+.confirmation .btnClose {
+    background-color: (0, 0, 0, 0);
+    color: rgb(77, 77, 77);
+    border: 0;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    margin-right: -70vw;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.confirmation .title {
+  color: #08d;
+  font-family: 'kenaoregular';
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.confirmation .subtitle {
+  color: rgb(104, 101, 101);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.input {
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.cut {
+  background-color: #1c2cd600;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.cut-short {
+  width: 50px;
+}
+
+.iLabel {
+  color: #65657b;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.input:focus ~ .cut {
+  transform: translateY(8px);
+}
+
+.input:focus ~ .iLabel {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:focus) ~ .iLabel {
+  color: #808097;
+}
+
+.input:focus ~ .iLabel {
+  color: #dc2f55;
+}
+
+.confirmation .btnOK {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  text-align: center;
+  width: 100%;
+}
+
+.confirmation .btnOK:active {
+  background-color: #06b;
+}

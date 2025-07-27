@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/components/main-text.css">
     <link rel="stylesheet" href="css/components/loader.css">
     <link rel="stylesheet" href="css/components/section-celebração.css">
+    <link rel="stylesheet" href="css/components/confirmation.css">
     <link rel="stylesheet" href="css/components/section-galeria.css">
     <link rel="stylesheet" href="css/components/carousel-galeria.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -78,12 +79,36 @@
                 <b class="main-text -manuscript">Save the date!</b>
                 <b class="main-text -date">25 . 04 . 2026 <br></b>
                 <i>A melhor forma de compartilhar esse momento com vocês é vivendo juntos esse sonho! </i> <br><br>
-                <a href="" class="main-button -btn">
+                <a class="main-button -btn btnOpenModal" onclick="openModal()">
                     <span class="top-key"></span>
                     <span class="text">Confirmar Presença</span>
                     <span class="bottom-key-1"></span>
                     <span class="bottom-key-2"></span>
                 </a>
+
+                <div class="confirmation">
+                    <a class="btnClose" onclick="closeModal()">X</a>
+                    <div class="title">Oba! Você vai!</div>
+                    <div class="subtitle">Pra confirmar, fala pra gente:</div>
+
+                    <div class="input-container ic1">
+                        <input placeholder="" type="text" class="input" id="firstname">
+                        <div class="cut"></div>
+                        <label class="iLabel" for="firstname">Seu nome completo</label>
+                    </div>
+
+                    <div class="input-container ic2">
+                        <input placeholder="" type="text" class="input" id="lastname">
+                        <div class="cut"></div>
+                        <label class="iLabel" for="lastname">Quem da sua família vai com você?</label>
+                    </div>
+                    <div class="input-container ic2">
+                        <input placeholder="" type="text" class="input" id="email">
+                        <div class="cut cut-short"></div>
+                        <label class="iLabel" for="email">Email</label>
+                    </div>
+                    <button class="btnOK" onclick="closeModal()" type="text">Confirmado, estarei lá!</button>
+                </div>
 
 
                 <img class="igrejaimg" src="assets/img/igj.png" alt="imagem da igreja">
@@ -148,6 +173,7 @@
     <script src="js/inverted-parallax.js"></script>
     <script src="js/menu-hidden.js"></script>
     <script src="js/menu-mobile.js"></script>
+    <script src="js/confimation.js"></script>
 </body>
 
 </html>
