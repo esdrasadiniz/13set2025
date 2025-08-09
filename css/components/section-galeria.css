@@ -16,6 +16,9 @@
     background-size: cover;
     clip-path: ellipse(165% 99% at 50% 0%);
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .-galeria .main-subtitle {
@@ -25,8 +28,10 @@
     top: 29vh;
     z-index: 3;
     font-family: "Cormorant SC", serif;
-    font-size: 13vw;
+    font-size: 10vw;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .-galeria .main-subtitle .-galeria-subtitle {
@@ -34,6 +39,7 @@
     margin-left: -25px;
     line-height: 19vw;
     font-family: "Great Vibes", cursive;
+    font-weight: 100;
     color: #ffffff;
 }
 
