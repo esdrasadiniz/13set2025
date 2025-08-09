@@ -17,6 +17,10 @@
     color: rgb(85, 85, 85);
 }
 
+.-loader {
+    font-family: "Great Vibes", cursive;
+}
+
 .main-text .-date {
     font-weight: 800;
     font-size: 1.8vw;
