@@ -74,16 +74,16 @@
 
     .loader .main-text {
         color: white;
-        font-size: 7vw;
-        line-height: 8vw;
+        font-size: 5vw;
+        line-height: 6vw;
         text-align: center;
     }
     
     .loader .main-subtitle {
         color: white;
         text-align: center;
-        font-size: 3.5vw;
-        line-height: 3.5vw;
+        font-size: 10vw;
+        line-height: 10vw;
         margin-top: 10px;
     }
 
