@@ -88,7 +88,7 @@
     }
 
     .bg-image {
-        background-image: url(../../assets/img/bg-mobile.jpg);
+        background-image: url(../../assets/img/bg-mobile.webp);
         background-repeat: no-repeat;
         background-size: 170%;
         background-position: -147px -49px;
