@@ -24,7 +24,7 @@
     position: absolute;
     top: 29vh;
     z-index: 3;
-    font-family: 'Kenaoregular';
+    font-family: "Cormorant SC", serif;
     font-size: 13vw;
     text-align: center;
 }
@@ -33,7 +33,7 @@
     font-size: 30vw;
     margin-left: -25px;
     line-height: 19vw;
-    font-family: 'Meow Script';
+    font-family: "Great Vibes", cursive;
     color: #ffffff;
 }
 

@@ -22,18 +22,59 @@
     transition: transform 0.07s ease-out, opacity 0.07s ease-out;
 }
 
+.-inicio .top-title {
+    font-family: "Cormorant SC", serif;
+    font-size: 20vw;
+    color: white;
+    position: absolute;
+    top: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    z-index: 1;
+    font-size: 9vw;
+    text-align: center;
+}
+
+.-inicio .top-title::before {
+    content: "";
+    width: 45vw;
+    border-bottom: solid 1px white;
+    position: absolute;
+    top: 0vw;
+} 
+
+.-inicio .top-title::after {
+    content: "";
+    width: 45vw;
+    border-bottom: solid 1px white;
+    position: absolute;
+    top: 10vw;
+}
+
 .-inicio .main-title {
     color: white;
     position: absolute;
-    top: 160px;
+    top: 60vw;
     display: inline-flex;
     align-items: center;
     gap: 70px;
     z-index: 1;
     font-size: 140px;
+    text-align: center;
 }
 
-.-inicio .main-title .-kenao {
+.-inicio .main-title::before {
+    content: '&';
+    font-family: initial;
+    font-size: 15vw;
+    position: absolute;
+    transform: translateY(13vw);
+    opacity: 60%;
+}
+
+.-inicio .main-title .-syne {
     font-size: 3.5vw;
 }
 /*

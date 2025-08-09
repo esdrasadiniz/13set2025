@@ -1,18 +1,18 @@
 .main-title {
-    font-family: 'ahsingregular';
+    font-family: "Cormorant SC", serif;
 }
 
-.-kenao {
-    font-family: 'kenaoregular';
+.-syne {
+    font-family: "Syne", sans-serif;
 }
 
 .main-subtitle {
-    font-family: 'ahsingregular';
+    font-family: "Syne", sans-serif;
     font-size: 3vw;
 }
 
 .main-text {
-    font-family: 'kenaoregular';
+    font-family: "Syne", sans-serif;
     font-size: 1.3vw;
     color: rgb(85, 85, 85);
 }
@@ -20,11 +20,11 @@
 .main-text .-date {
     font-weight: 800;
     font-size: 1.8vw;
-    font-family: 'kenaoregular' ;
+    font-family: "Syne", sans-serif ;
 }
 
 .main-text .-manuscript {
-    font-family: 'Meow Script', cursive;
+    font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 4vw;
 }
