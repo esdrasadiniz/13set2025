@@ -207,3 +207,15 @@
         background-position: -190px -271px;
     }
 }
+
+    .carousel {
+        transition: all 0s linear;
+    }
+
+    .service-card {
+        flex: 0 0 auto;
+        /* Garante que cada card mantenha seu tamanho */
+        width: 70vw;
+        height: 90vw;
+        /* Ajuste conforme o tamanho desejado */
+      }
