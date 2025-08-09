@@ -67,7 +67,7 @@
 
 .-inicio .main-title::before {
     content: '&';
-    font-family: initial;
+    font-family: "Tangerine", cursive;
     font-size: 15vw;
     position: absolute;
     transform: translateY(13vw);
