@@ -3,7 +3,7 @@ window.addEventListener("load", function () {
     const loaderBg = document.querySelector(".loader-bg");
     const titulo = document.querySelector(".main-title");
     const flowers = document.querySelector(".flowers");
-    const casalGhibli = document.querySelector(".casal-ghibli");
+    const topTitle = document.querySelector(".top-title");
     const menu = document.querySelector(".main-menu");
     const menuMobile = document.querySelector(".menu-mobile");
     const btn = document.querySelector(".-btn");
@@ -24,7 +24,7 @@ window.addEventListener("load", function () {
         // Aguarda um pequeno tempo e então anima os elementos
         setTimeout(function () {
             titulo.classList.add("visible");
-            casalGhibli.classList.add("visible");
+            topTitle.classList.add("visible");
             flowers.classList.add("visible");
             menu.classList.add("visible");
             menuMobile.classList.remove("hidden");

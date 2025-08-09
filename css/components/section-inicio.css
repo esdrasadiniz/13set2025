@@ -117,6 +117,11 @@
     transform: translateX(250vw);
     transition: transform 1s ease-out;
 }
+
+.top-title {
+    transform: translateX(250vw);
+    transition: transform 1s ease-out;
+}
 /*
 .casal-ghibli {
     transform: translateX(110vw);
