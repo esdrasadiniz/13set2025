@@ -5,17 +5,17 @@
     justify-content: top;
     align-items: center;
     padding-top: 100px;
-    background-color: #fdfdf1;
+    background-color: #f5efeb;
     z-index: 600;
     position: relative;
-    background: linear-gradient(to bottom, #fdfdf100 0%, #fdfdf1ea 27%, #fdfdf1 30%);
+    background: linear-gradient(to bottom, #f5efeb00 0%, #f5efebea 27%, #f5efeb 30%);
 }
 
 .-cerimonia .main-text {
     width: 50vw;
     height: fit-content;
     text-align: center;
-    color: rgb(77, 77, 77);
+    color: #2e363f;
     padding: 50px;
     border-radius: 10px;
     line-height: 1.5vw;
@@ -26,7 +26,7 @@
 }
 
 .-cerimonia .main-text .-date {
-    color: rgb(98, 121, 96);
+    color: #4d7570;
     font-size: 33vw;
     line-height: 35vw;
     font-family: "Cormorant SC", serif;
@@ -34,10 +34,10 @@
 
 .main-button.-btn {
     background-color: transparent;
-    border: 2px solid rgb(77, 77, 77);
+    border: 2px solid #4d7570;
     border-radius: 8px;
     box-sizing: border-box;
-    color: rgb(77, 77, 77);
+    color: #4d7570;
     cursor: pointer;
     display: inline-block;
     float: right;
@@ -73,7 +73,7 @@
     top: -2px;
     left: 0.625rem;
     position: absolute;
-    background: #fdfdf1;
+    background: #f5efeb;
     transition: width 0.5s ease-out, left 0.3s ease-out;
 }
 
@@ -83,7 +83,7 @@
     right: 1.875rem;
     bottom: -2px;
     position: absolute;
-    background: #fdfdf1;
+    background: #f5efeb;
     transition: width 0.5s ease-out, right 0.3s ease-out;
 }
 
@@ -93,14 +93,14 @@
     right: 0.625rem;
     bottom: -2px;
     position: absolute;
-    background: #fdfdf1;
+    background: #f5efeb;
     transition: width 0.5s ease-out, right 0.3s ease-out;
 }
 
 .main-button.-btn:hover {
     color: white;
     background: #7ce785;
-    border-color: #fdfdf1;
+    border-color: #f5efeb;
 }
 
 .main-button.-btn:hover::before {

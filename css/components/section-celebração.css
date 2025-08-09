@@ -4,7 +4,7 @@
     position: relative;
     height: fit-content;
     padding: 70px 0 100px;
-    background-color: #fdfdf1;
+    background-color: #f5efeb;
 }
 
 .-celebracao .momentos::before{
@@ -30,11 +30,12 @@
 
 .-celebracao .momentos .title {
     font-size: 23px;
-    color: rgba(0, 0, 0, 0.582);
+    color: #4d7570;
 }
 .-celebracao .momentos .subtitle {
     font-family: "Great Vibes", cursive;
     font-size: 50px;
+    color: #2e363f;
 }
 .-celebracao .momentos .main-text {
     font-size: 16px;
