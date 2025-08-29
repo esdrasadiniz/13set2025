@@ -95,29 +95,49 @@
                     <a class="btnClose" onclick="closeModal()">X</a>
                     <div class="title">Oba! Você vai!</div>
                     <div class="subtitle">Pra confirmar, fala pra gente:</div>
+                    <div class="participante">
+                        <div class="input-container ic1">
+                            <input placeholder=" " type="text" class="input" name="nome" id="name" required>
+                            <div class="cut"></div>
+                            <label class="iLabel" for="name">Seu nome completo*</label>
+                        </div>
 
-                    <div class="input-container ic1">
-                        <input placeholder=" " type="text" class="input" name="nome" id="name" required>
-                        <div class="cut"></div>
-                        <label class="iLabel" for="name">Seu nome completo*</label>
+                        <div class="input-container ic2">
+                            <input placeholder=" " type="text" class="input" name="vai ir com" id="family">
+                            <div class="cut"></div>
+                            <label class="iLabel" for="family">Quem da sua família vai com você?</label>
+                        </div>
+                        <div class="input-container ic2">
+                            <input placeholder=" " type="text" class="input" name="whatsapp" id="whatsapp" required>
+                            <div class="cut cut-short"></div>
+                            <label class="iLabel" for="whatsapp">WhatsApp*</label>
+                        </div>
                     </div>
-
-                    <div class="input-container ic2">
-                        <input placeholder=" " type="text" class="input" name="vai ir com" id="family">
-                        <div class="cut"></div>
-                        <label class="iLabel" for="family">Quem da sua família vai com você?</label>
-                    </div>
-                    <div class="input-container ic2">
-                        <input placeholder=" " type="text" class="input" name="whatsapp" id="whatsapp" required>
-                        <div class="cut cut-short"></div>
-                        <label class="iLabel" for="whatsapp">WhatsApp*</label>
-                    </div>
+                    <button type="button" id="addParticipante" class="btnOK">+ Adicionar mais pessoa</button>
                     <button class="btnOK" type="submit">Confirmado, estarei lá!</button>
                 </form>
                 <div id="feedback" class="feedback-message hidden">
                     <p id="feedback-text"></p>
                     <button onclick="closeFeedback()">Fechar</button>
                 </div>
+                <script>
+                    const btnAdd = document.getElementById("addParticipante");
+                    const form = document.getElementById("main-form");
+
+                    btnAdd.addEventListener("click", function () {
+                        // Seleciona o primeiro bloco de participante
+                        const participante = document.querySelector(".participante");
+
+                        // Clona o bloco inteiro
+                        const clone = participante.cloneNode(true);
+
+                        // Limpa os valores dos inputs clonados
+                        clone.querySelectorAll("input").forEach(input => input.value = "");
+
+                        // Insere o clone antes do botão de adicionar
+                        form.insertBefore(clone, btnAdd);
+                    });
+                </script>
                 <script>
                     // Inicializa o EmailJS com a Public Key
                     emailjs.init("kXD1_fUsp0saMMSPh"); // Substitua pela sua Public Key do EmailJS
@@ -153,7 +173,8 @@
                 <b>Cerimônia <br> 15:30 <br> </b>
                 Igreja Batista Renascença <br> Rua Taquari, 96 - Renascença, Belo Horizonte
 
-                <a href="https://ul.waze.com/ul?place=ChIJR9km8QyapgAR0paZLi-sLE4&ll=-19.89404270%2C-43.93722080&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" class="main-button -btn" style="margin-top: 10vw;">
+                <a href="https://ul.waze.com/ul?place=ChIJR9km8QyapgAR0paZLi-sLE4&ll=-19.89404270%2C-43.93722080&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+                    class="main-button -btn" style="margin-top: 10vw;">
                     <span class="top-key"></span>
                     <span class="text">Como chegar</span>
                     <span class="bottom-key-1"></span>
@@ -193,7 +214,8 @@
                 <div class="recepcao">
                     <p class="title">17:00</p>
                     <p class="subtitle">Receptivo</p>
-                    <p class="main-text">Um momento especial para conversar, tirar fotos juntos, compartilhar sorrisos e guardar lembranças. Teremos também um mimo delicioso para adoçar a experiência</p>
+                    <p class="main-text">Um momento especial para conversar, tirar fotos juntos, compartilhar sorrisos e
+                        guardar lembranças. Teremos também um mimo delicioso para adoçar a experiência</p>
                 </div>
             </div>
         </section>
@@ -209,7 +231,7 @@
             </div>
         </section>
 
-        
+
     </div>
 
     <script src="js/loading.js"></script>
