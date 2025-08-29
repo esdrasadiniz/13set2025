@@ -1,3 +1,7 @@
+.presentes {
+    background-color: #9fc089;
+}
+
 .presente-item {
     display: flex;
     flex-direction: column;
