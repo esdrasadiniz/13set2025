@@ -3,7 +3,6 @@
     flex-direction: column;
     padding: 2vw;
     width: 40vw;
-    height: 50vw;
     background-color: bisque;
 }
 
@@ -13,8 +12,8 @@
 
 .presente-item button {
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: aqua;
-    height: 5vw;
+    height: 11vw;
     
 }
