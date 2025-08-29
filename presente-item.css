@@ -19,8 +19,10 @@
 .presente-item {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     padding: 2vw;
     width: 43vw;
+    min-height: 56vw;
     background-color: #fff9f1;
     border-radius: 2px;
 }
