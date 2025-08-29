@@ -1,5 +1,7 @@
 .presentes {
     background-color: #9fc089;
+    height: 100vh;
+    padding: 2vw;
 }
 
 .presente-item {
