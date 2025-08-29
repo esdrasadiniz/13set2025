@@ -4,6 +4,12 @@
     padding: 2vw;
 }
 
+.wrap-presentes {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 .presente-item {
     display: flex;
     flex-direction: column;
@@ -32,3 +38,4 @@
     font-weight: 700;
     height: 11vw;
 }
+
