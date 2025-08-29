@@ -4,6 +4,9 @@
     padding: 2vw;
     width: 40vw;
     background-color: bisque;
+    font-family: "Syne", sans-serif;
+    font-size: 1.3vw;
+    color: rgb(85, 85, 85);
 }
 
 .presente-item image {
