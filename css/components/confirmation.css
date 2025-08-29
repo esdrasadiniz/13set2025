@@ -1,5 +1,5 @@
 .confirmation {
-  background-color: #e7f1f5;
+  background-color: #c8d9e6;
   border-radius: 20px;
   box-sizing: border-box;
   height: 480px;
@@ -45,7 +45,7 @@
 }
 
 .confirmation .title {
-  color: #08d;
+  color: #24405e;
   font-family: "Syne", sans-serif;
   font-size: 10vw;
   font-weight: 600;
@@ -149,7 +149,7 @@
 }
 
 .confirmation .btnOK {
-  background-color: #08d;
+  background-color: #28ad7c;
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
