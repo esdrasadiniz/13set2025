@@ -6,7 +6,7 @@
     height: 160vw;
     background-image: url(assets/img/Story\ Azul\ e\ Rosa\ de\ Encomenda\ de\ Presente\ de\ Dia\ dos\ Namorados.jpg);
     background-size: cover;
-    margin-bottom: -12vw;
+    margin-bottom: -5vw;
 }
 
 .wrap-presentes {
@@ -51,6 +51,10 @@
 }
 
 .list-title {
-    
+    font-family: 'Syne';
+    font-size: 8vw;
+    height: 4vw;
+    padding-left: 4vw;
+    color: white;
 }
 
