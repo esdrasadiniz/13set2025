@@ -13,5 +13,8 @@
 
 .presente-item button {
     border: none;
+    border-radius: 10px;
     background-color: aqua;
+    height: 5vw;
+    
 }
