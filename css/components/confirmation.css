@@ -3,8 +3,8 @@
   border-radius: 20px;
   box-sizing: border-box;
   padding: 20px;
-  width: 85vw;
-  max-height: 300vw;
+  width: 93vw;
+  max-height: 150vw;
   position: fixed;
   z-index: 999;
   top: 100px;
@@ -68,7 +68,7 @@
 }
 
 .ic1 {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .ic2 {
