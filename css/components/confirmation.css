@@ -4,10 +4,12 @@
   box-sizing: border-box;
   padding: 20px;
   width: 85vw;
+  max-height: 300vw;
   position: fixed;
   z-index: 999;
   top: 100px;
   display: none;
+  overflow-y: auto
 }
 
 .active {
