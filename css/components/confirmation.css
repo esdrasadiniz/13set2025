@@ -163,9 +163,9 @@
   width: 100%;
 }
 
-.confirmation .btnOK .-add {
+.confirmation .btnOK.-add {
   margin-top: 4vw;
-  
+
 }
 
 .confirmation .btnOK:active {
