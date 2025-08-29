@@ -53,8 +53,12 @@
 .list-title {
     font-family: 'Syne';
     font-size: 8vw;
-    height: 4vw;
-    padding-left: 4vw;
+    height: 11vw;
+    width: 70vw;
+    margin-left: 3vw;
+    margin-bottom: 0;
+    padding-left: 0vw;
     color: white;
+    border-bottom: solid 1px white;
 }
 
