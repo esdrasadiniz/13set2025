@@ -1,19 +1,19 @@
 .presentes {
     background-color: #9fc089;
     height: 100vh;
-    padding: 2vw;
 }
 
 .presentes-capa {
-    height: 60vh;
+    height: 160vw;
     background-image: url(assets/img/Story\ Azul\ e\ Rosa\ de\ Encomenda\ de\ Presente\ de\ Dia\ dos\ Namorados.jpg);
+    background-size: cover;
 }
 
 .wrap-presentes {
     display: flex;
     flex-wrap: wrap;
     gap: 2vw;
-    
+    padding: 0 2vw;
 }
 
 .presente-item {
@@ -43,5 +43,6 @@
     color: white;
     font-weight: 700;
     height: 11vw;
+    font-size: 7vw;
 }
 
