@@ -3,11 +3,14 @@
     flex-direction: column;
     padding: 2vw;
     width: 40vw;
-    background-color: bisque;
-    text-align: center;
-    font-family: "Syne", sans-serif;
+    background-color: #fff9f1;
+}
+
+.presente-item h3 {
+    font-family: 'Syne';
     font-size: 3.8vw;
     color: rgb(85, 85, 85);
+    text-align: center;
 }
 
 .presente-item image {
