@@ -34,6 +34,11 @@
     text-align: center;
 }
 
+.presente-item .valor {
+    margin-top: 0;
+    
+}
+
 .presente-item img {
     object-fit: cover;
     aspect-ratio: 4/3;
