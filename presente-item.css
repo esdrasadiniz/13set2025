@@ -36,7 +36,8 @@
 
 .presente-item .valor {
     margin-top: 0;
-    
+    font-size: 4.6vw;
+    color: #ff8d00;
 }
 
 .presente-item img {
