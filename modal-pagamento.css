@@ -33,3 +33,7 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.tipo-pagamento .pix .valor-pix {
+    font-size: 7vw;
+}
