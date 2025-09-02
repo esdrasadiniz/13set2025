@@ -50,5 +50,8 @@
     border-radius: 2vw;
     align-items: center;
     height: 25vw;
+}
+
+.tipo-pagamento .credito h3 {
     font-size: 6vw;
 }
