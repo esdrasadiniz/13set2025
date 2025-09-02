@@ -12,6 +12,7 @@
   display: none;
   overflow-y: auto;
   text-align: right;
+  box-shadow: rgb(100, 100, 100) 1vw 1vw 5vw;
 }
 
 .active {
