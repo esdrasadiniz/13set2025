@@ -23,7 +23,8 @@
 }
 
 .tipo-pagamento .logo {
-    width: 5vw;
+    width: 25vw;
+    object-fit: contain;
 } 
 
 .tipo-pagamento .pix {
