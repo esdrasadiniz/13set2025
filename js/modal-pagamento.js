@@ -6,13 +6,13 @@
             // pega o código do atributo data-pix
             const codigoPix = botao.getAttribute("data-pix");
 
-            navigator.clipboard.writeText(codigoPix)
-                .then(() => {
+           // navigator.clipboard.writeText(codigoPix)
+           //     .then(() => {
                     // aqui você pode mostrar uma mensagem personalizada
-                    alert("Código PIX copiado!");
-                })
-                .catch(err => {
-                    console.error("Erro ao copiar PIX: ", err);
-                });
+           //         alert("Código PIX copiado!");
+           //     })
+           //     .catch(err => {
+           //         console.error("Erro ao copiar PIX: ", err);
+           //    });
         });
     });
