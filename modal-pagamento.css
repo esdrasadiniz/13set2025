@@ -32,6 +32,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border: solid 1px ghostwhite;
+    border-radius: 2vw;
 }
 
 .tipo-pagamento .pix .valor-pix {
