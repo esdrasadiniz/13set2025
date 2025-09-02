@@ -51,3 +51,7 @@
     align-items: center;
     height: 25vw;
 }
+
+.tipo-pagamento .credito .logo.-credito {
+    opacity: 50%;
+}
