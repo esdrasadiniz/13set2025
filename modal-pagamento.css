@@ -28,5 +28,6 @@
 } 
 
 .tipo-pagamento .pix {
+    display: flex;
     flex-direction: row;
 }
