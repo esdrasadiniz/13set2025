@@ -17,3 +17,11 @@ header {
     display: none;   
 }
 
+.setinha {
+    width: 5vw;
+    height: 5vw;
+    border: solid 0 1px 1px 0 white;
+    background-color: aqua;
+    position: absolute;
+    
+}
