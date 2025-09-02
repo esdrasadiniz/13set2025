@@ -25,9 +25,11 @@
 .tipo-pagamento .logo {
     width: 25vw;
     object-fit: contain;
+    object-position: center;
 } 
 
 .tipo-pagamento .pix {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
