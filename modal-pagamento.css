@@ -8,6 +8,7 @@
   position: fixed;
   z-index: 999;
   top: 100px;
+  left: 13px;
   display: none;
   overflow-y: auto;
   text-align: right;
