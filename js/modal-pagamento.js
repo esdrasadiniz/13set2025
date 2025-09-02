@@ -17,8 +17,8 @@ function showFormFeedback(message) {
 // FEEDBACK DOS BOTÕES PIX
 // -----------------------------
 function showPixFeedback(message) {
-    const box = document.getElementById("pix-feedback");
-    const text = document.getElementById("pix-feedback-text");
+    const box = document.getElementById("feedback");
+    const text = document.getElementById("feedback-text");
 
     if (text) text.textContent = message;
     if (box) {
