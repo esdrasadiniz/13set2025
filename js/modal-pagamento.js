@@ -12,23 +12,6 @@ function showFormFeedback(message) {
     }
 }
 
-function closeFormFeedback() {
-    const box = document.getElementById("feedback");
-    if (box) box.classList.add("hidden");
-
-    const form = document.getElementById("main-form");
-    if (form) form.classList.remove("active");
-}
-
-// Exemplo de uso no submit do formulário
-const form = document.getElementById("main-form");
-if (form) {
-    form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        // aqui iria sua lógica de envio do form...
-        showFormFeedback("Formulário enviado com sucesso!");
-    });
-}
 
 // -----------------------------
 // FEEDBACK DOS BOTÕES PIX
