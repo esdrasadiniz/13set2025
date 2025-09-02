@@ -55,3 +55,7 @@
 .tipo-pagamento .credito .logo.-credito {
     opacity: 50%;
 }
+
+.tipo-pagamento a {
+    text-decoration: none;
+}
