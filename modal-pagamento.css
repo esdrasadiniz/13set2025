@@ -8,11 +8,16 @@
   position: fixed;
   z-index: 999;
   top: 100px;
-  display: flex;
-  flex-direction: column;
+  display: block;
   overflow-y: auto
 }
 
 .active {
+    display: block;
+}
+
+.modal-pagamento .tipo-pagamento {
     display: flex;
+    flex-direction: column;
+    
 }
