@@ -35,5 +35,6 @@
 }
 
 .tipo-pagamento .pix .valor-pix {
-    font-size: 7vw;
+    font-size: 6vw;
+    margin: 3vw 0;
 }
