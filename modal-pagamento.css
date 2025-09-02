@@ -9,7 +9,8 @@
   z-index: 999;
   top: 100px;
   display: none;
-  overflow-y: auto
+  overflow-y: auto;
+  text-align: right;
 }
 
 .active {
@@ -58,4 +59,8 @@
 
 .tipo-pagamento a {
     text-decoration: none;
+}
+
+.btnClose {
+    font-family: "Syne";
 }
