@@ -1,5 +1,5 @@
 .modal-pagamento {
-  background-color: #ecf3f9;
+  background-color: white;
   border-radius: 20px;
   box-sizing: border-box;
   padding: 20px;
@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: solid 1px white;
+    border: solid 1px #ededed;
     border-radius: 2vw;
     padding-bottom: 2vw;
 }
@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: solid 1px white;
+    border: solid 1px #ededed;
     border-radius: 2vw;
     align-items: center;
     height: 25vw;
