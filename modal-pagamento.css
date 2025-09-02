@@ -25,3 +25,7 @@
 .tipo-pagamento .logo {
     width: 5vw;
 } 
+
+.tipo-pagamento .pix {
+    flex-direction: row;
+}
