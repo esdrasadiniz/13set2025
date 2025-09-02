@@ -1,0 +1,17 @@
+.modal-pagamento {
+  background-color: #c8d9e6;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 93vw;
+  max-height: 150vw;
+  position: fixed;
+  z-index: 999;
+  top: 100px;
+  display: block;
+  overflow-y: auto
+}
+
+.active {
+    display: block;
+}
