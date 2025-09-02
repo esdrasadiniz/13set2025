@@ -56,6 +56,6 @@
     opacity: 50%;
 }
 
-.tipo-pagamento a::after {
+.tipo-pagamento a {
     text-decoration: none;
 }
