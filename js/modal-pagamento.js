@@ -39,7 +39,7 @@ document.querySelectorAll(".modal-pagamento").forEach(modal => {
 // FEEDBACK DO PIX
 // -----------------------------
 function showPixFeedback(message) {
-    const box = document.getElementById("feedback-message");
+    const box = document.getElementById("feedback");
     const text = document.getElementById("feedback-text");
 
     if (text) text.textContent = message;
