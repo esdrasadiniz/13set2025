@@ -1,20 +1,5 @@
 // -----------------------------
-// FEEDBACK DO FORMULÁRIO
-// -----------------------------
-function showFormFeedback(message) {
-    const box = document.getElementById("feedback");
-    const text = document.getElementById("feedback-text");
-
-    if (text) text.textContent = message;
-    if (box) {
-        box.classList.remove("hidden");
-        setTimeout(closeFormFeedback, 3000);
-    }
-}
-
-
-// -----------------------------
-// FEEDBACK DOS BOTÕES PIX
+// FEEDBACK DO PIX
 // -----------------------------
 function showPixFeedback(message) {
     const box = document.getElementById("feedback");
@@ -23,11 +8,17 @@ function showPixFeedback(message) {
     if (text) text.textContent = message;
     if (box) {
         box.classList.remove("hidden");
-        setTimeout(() => box.classList.add("hidden"), 3000);
+
+        // Fecha automaticamente após 3 segundos
+        setTimeout(() => {
+            box.classList.add("hidden");
+        }, 3000);
     }
 }
 
-// Seleciona todos os botões de copiar Pix
+// -----------------------------
+// BOTÕES PIX
+// -----------------------------
 const botoesPix = document.querySelectorAll(".copiar-pix");
 
 botoesPix.forEach(botao => {
@@ -39,7 +30,8 @@ botoesPix.forEach(botao => {
                 showPixFeedback("Código Pix copiado!");
             })
             .catch(error => {
-                alert("Erro ao copiar o Pix: " + error);
+                showPixFeedback("Erro ao copiar o Pix!");
+                console.error(error);
             });
     });
 });
