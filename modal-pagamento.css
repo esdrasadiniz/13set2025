@@ -19,5 +19,9 @@
 .modal-pagamento .tipo-pagamento {
     display: flex;
     flex-direction: column;
-    
+
 }
+
+.tipo-pagamento .logo {
+    width: 5vw;
+} 
